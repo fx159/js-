@@ -5,6 +5,6 @@ function createnew(){
     Fun.prototype=con.prototype;
     obj=new Fun();//让obj指向构造函数，这样就能访问传入的构造函数原型的属性
     con.apply(obj,arguments);//使用apply使obj的this指向构造函数，这样就能访问构造函数的属性
-    return obj;//返回创建的对象
+    return obj;//     返 回要创建的对象
 
 }
